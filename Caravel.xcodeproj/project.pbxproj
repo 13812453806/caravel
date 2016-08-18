@@ -7,42 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7199EEA1BFC038D00757E4F /* CaravelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7199EE91BFC038D00757E4F /* CaravelError.swift */; };
+		A7199EEC1BFC0EC700757E4F /* CaravelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7199EEB1BFC0EC700757E4F /* CaravelFactory.swift */; };
+		A7199EEE1BFC11E000757E4F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7199EED1BFC11E000757E4F /* Utils.swift */; };
+		A7199EF31BFC1F4400757E4F /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7199EF21BFC1F4400757E4F /* EventBus.swift */; };
+		A75215311C2B07EC00B7CAA3 /* WKWebViewMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75215301C2B07EC00B7CAA3 /* WKWebViewMediator.swift */; };
+		A75215341C2C3EB700B7CAA3 /* IUIWebViewObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75215331C2C3EB700B7CAA3 /* IUIWebViewObserver.swift */; };
+		A75215361C2C491400B7CAA3 /* UIWebViewDelegateProxyMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75215351C2C491400B7CAA3 /* UIWebViewDelegateProxyMediator.swift */; };
+		A75215381C2C5A8300B7CAA3 /* WKScriptMessageHandlerProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75215371C2C5A8300B7CAA3 /* WKScriptMessageHandlerProxy.swift */; };
+		A752153C1C2C5B2E00B7CAA3 /* IWKWebViewObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752153B1C2C5B2E00B7CAA3 /* IWKWebViewObserver.swift */; };
 		A7AC9F281B3493EB0041EB0B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC9F271B3493EB0041EB0B /* StringExtension.swift */; };
 		A7F1DD981B17D957001E9B94 /* caravel.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F1DD971B17D957001E9B94 /* caravel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7F1DD9E1B17D958001E9B94 /* Caravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F1DD921B17D957001E9B94 /* Caravel.framework */; };
-		A7F1DDA51B17D958001E9B94 /* caravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDA41B17D958001E9B94 /* caravelTests.swift */; };
 		A7F1DDB21B17D989001E9B94 /* Caravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDAE1B17D989001E9B94 /* Caravel.swift */; };
-		A7F1DDB31B17D989001E9B94 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDAF1B17D989001E9B94 /* Subscriber.swift */; };
-		A7F1DDB51B17D989001E9B94 /* UIWebViewDelegateMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDB11B17D989001E9B94 /* UIWebViewDelegateMediator.swift */; };
+		A7F1DDB31B17D989001E9B94 /* EventSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDAF1B17D989001E9B94 /* EventSubscriber.swift */; };
+		A7F1DDB51B17D989001E9B94 /* UIWebViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDB11B17D989001E9B94 /* UIWebViewDelegateProxy.swift */; };
 		A7F1DDB81B17E5F8001E9B94 /* DataSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDB71B17E5F8001E9B94 /* DataSerializer.swift */; };
-		A7F1DDBA1B17E6F5001E9B94 /* SupportedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDB91B17E6F5001E9B94 /* SupportedType.swift */; };
 		A7F1DDBC1B17EF24001E9B94 /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1DDBB1B17EF24001E9B94 /* ArgumentParser.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A7F1DD9F1B17D958001E9B94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7F1DD891B17D957001E9B94 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7F1DD911B17D957001E9B94;
-			remoteInfo = caravel;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		A7199EE91BFC038D00757E4F /* CaravelError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaravelError.swift; sourceTree = "<group>"; };
+		A7199EEB1BFC0EC700757E4F /* CaravelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaravelFactory.swift; path = internal/CaravelFactory.swift; sourceTree = "<group>"; };
+		A7199EED1BFC11E000757E4F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = utils/Utils.swift; sourceTree = "<group>"; };
+		A7199EF21BFC1F4400757E4F /* EventBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBus.swift; sourceTree = "<group>"; };
+		A75215301C2B07EC00B7CAA3 /* WKWebViewMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WKWebViewMediator.swift; path = internal/proxies/WKWebViewMediator.swift; sourceTree = "<group>"; };
+		A75215331C2C3EB700B7CAA3 /* IUIWebViewObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IUIWebViewObserver.swift; path = internal/proxies/IUIWebViewObserver.swift; sourceTree = "<group>"; };
+		A75215351C2C491400B7CAA3 /* UIWebViewDelegateProxyMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIWebViewDelegateProxyMediator.swift; path = internal/proxies/UIWebViewDelegateProxyMediator.swift; sourceTree = "<group>"; };
+		A75215371C2C5A8300B7CAA3 /* WKScriptMessageHandlerProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WKScriptMessageHandlerProxy.swift; path = internal/proxies/WKScriptMessageHandlerProxy.swift; sourceTree = "<group>"; };
+		A752153B1C2C5B2E00B7CAA3 /* IWKWebViewObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IWKWebViewObserver.swift; path = internal/proxies/IWKWebViewObserver.swift; sourceTree = "<group>"; };
 		A7AC9F271B3493EB0041EB0B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = utils/StringExtension.swift; sourceTree = "<group>"; };
 		A7F1DD921B17D957001E9B94 /* Caravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Caravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F1DD961B17D957001E9B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F1DD971B17D957001E9B94 /* caravel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = caravel.h; sourceTree = "<group>"; };
-		A7F1DD9D1B17D958001E9B94 /* CaravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F1DDA31B17D958001E9B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7F1DDA41B17D958001E9B94 /* caravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caravelTests.swift; sourceTree = "<group>"; };
 		A7F1DDAE1B17D989001E9B94 /* Caravel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caravel.swift; sourceTree = "<group>"; };
-		A7F1DDAF1B17D989001E9B94 /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
-		A7F1DDB11B17D989001E9B94 /* UIWebViewDelegateMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewDelegateMediator.swift; sourceTree = "<group>"; };
-		A7F1DDB71B17E5F8001E9B94 /* DataSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSerializer.swift; sourceTree = "<group>"; };
-		A7F1DDB91B17E6F5001E9B94 /* SupportedType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportedType.swift; sourceTree = "<group>"; };
-		A7F1DDBB1B17EF24001E9B94 /* ArgumentParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentParser.swift; sourceTree = "<group>"; };
+		A7F1DDAF1B17D989001E9B94 /* EventSubscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventSubscriber.swift; path = internal/EventSubscriber.swift; sourceTree = "<group>"; };
+		A7F1DDB11B17D989001E9B94 /* UIWebViewDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIWebViewDelegateProxy.swift; path = internal/proxies/UIWebViewDelegateProxy.swift; sourceTree = "<group>"; };
+		A7F1DDB71B17E5F8001E9B94 /* DataSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSerializer.swift; path = internal/DataSerializer.swift; sourceTree = "<group>"; };
+		A7F1DDBB1B17EF24001E9B94 /* ArgumentParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentParser.swift; path = internal/ArgumentParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,21 +54,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7F1DD9A1B17D958001E9B94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7F1DD9E1B17D958001E9B94 /* Caravel.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7199EF11BFC1EBE00757E4F /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				A75215321C2C3DD700B7CAA3 /* proxies */,
+				A7F1DDBB1B17EF24001E9B94 /* ArgumentParser.swift */,
+				A7199EEB1BFC0EC700757E4F /* CaravelFactory.swift */,
+				A7F1DDB71B17E5F8001E9B94 /* DataSerializer.swift */,
+				A7F1DDAF1B17D989001E9B94 /* EventSubscriber.swift */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		A75215321C2C3DD700B7CAA3 /* proxies */ = {
+			isa = PBXGroup;
+			children = (
+				A75215331C2C3EB700B7CAA3 /* IUIWebViewObserver.swift */,
+				A752153B1C2C5B2E00B7CAA3 /* IWKWebViewObserver.swift */,
+				A7F1DDB11B17D989001E9B94 /* UIWebViewDelegateProxy.swift */,
+				A75215351C2C491400B7CAA3 /* UIWebViewDelegateProxyMediator.swift */,
+				A75215371C2C5A8300B7CAA3 /* WKScriptMessageHandlerProxy.swift */,
+				A75215301C2B07EC00B7CAA3 /* WKWebViewMediator.swift */,
+			);
+			name = proxies;
+			sourceTree = "<group>";
+		};
 		A7AC9F261B3493CA0041EB0B /* utils */ = {
 			isa = PBXGroup;
 			children = (
 				A7AC9F271B3493EB0041EB0B /* StringExtension.swift */,
+				A7199EED1BFC11E000757E4F /* Utils.swift */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -76,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				A7F1DD941B17D957001E9B94 /* caravel */,
-				A7F1DDA11B17D958001E9B94 /* caravelTests */,
 				A7F1DD931B17D957001E9B94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				A7F1DD921B17D957001E9B94 /* Caravel.framework */,
-				A7F1DD9D1B17D958001E9B94 /* CaravelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,15 +110,13 @@
 		A7F1DD941B17D957001E9B94 /* caravel */ = {
 			isa = PBXGroup;
 			children = (
-				A7AC9F261B3493CA0041EB0B /* utils */,
-				A7F1DDAE1B17D989001E9B94 /* Caravel.swift */,
-				A7F1DDAF1B17D989001E9B94 /* Subscriber.swift */,
-				A7F1DDB11B17D989001E9B94 /* UIWebViewDelegateMediator.swift */,
 				A7F1DD971B17D957001E9B94 /* caravel.h */,
+				A7F1DDAE1B17D989001E9B94 /* Caravel.swift */,
+				A7199EE91BFC038D00757E4F /* CaravelError.swift */,
+				A7199EF21BFC1F4400757E4F /* EventBus.swift */,
+				A7199EF11BFC1EBE00757E4F /* internal */,
 				A7F1DD951B17D957001E9B94 /* Supporting Files */,
-				A7F1DDB71B17E5F8001E9B94 /* DataSerializer.swift */,
-				A7F1DDB91B17E6F5001E9B94 /* SupportedType.swift */,
-				A7F1DDBB1B17EF24001E9B94 /* ArgumentParser.swift */,
+				A7AC9F261B3493CA0041EB0B /* utils */,
 			);
 			path = caravel;
 			sourceTree = "<group>";
@@ -110,23 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				A7F1DD961B17D957001E9B94 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A7F1DDA11B17D958001E9B94 /* caravelTests */ = {
-			isa = PBXGroup;
-			children = (
-				A7F1DDA41B17D958001E9B94 /* caravelTests.swift */,
-				A7F1DDA21B17D958001E9B94 /* Supporting Files */,
-			);
-			path = caravelTests;
-			sourceTree = "<group>";
-		};
-		A7F1DDA21B17D958001E9B94 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A7F1DDA31B17D958001E9B94 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,41 +143,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A7F1DD911B17D957001E9B94 /* Caravel.temp_caseinsensitive_rename */ = {
+		A7F1DD911B17D957001E9B94 /* Caravel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7F1DDA81B17D958001E9B94 /* Build configuration list for PBXNativeTarget "Caravel.temp_caseinsensitive_rename" */;
+			buildConfigurationList = A7F1DDA81B17D958001E9B94 /* Build configuration list for PBXNativeTarget "Caravel" */;
 			buildPhases = (
 				A7F1DD8D1B17D957001E9B94 /* Sources */,
 				A7F1DD8E1B17D957001E9B94 /* Frameworks */,
 				A7F1DD8F1B17D957001E9B94 /* Headers */,
 				A7F1DD901B17D957001E9B94 /* Resources */,
+				A726F6CC1C4FF4A6005EEDD6 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Caravel.temp_caseinsensitive_rename;
+			name = Caravel;
 			productName = caravel;
 			productReference = A7F1DD921B17D957001E9B94 /* Caravel.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		A7F1DD9C1B17D958001E9B94 /* Caravel.temp_caseinsensitive_renameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7F1DDAB1B17D958001E9B94 /* Build configuration list for PBXNativeTarget "Caravel.temp_caseinsensitive_renameTests" */;
-			buildPhases = (
-				A7F1DD991B17D958001E9B94 /* Sources */,
-				A7F1DD9A1B17D958001E9B94 /* Frameworks */,
-				A7F1DD9B1B17D958001E9B94 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7F1DDA01B17D958001E9B94 /* PBXTargetDependency */,
-			);
-			name = Caravel.temp_caseinsensitive_renameTests;
-			productName = caravelTests;
-			productReference = A7F1DD9D1B17D958001E9B94 /* CaravelTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,13 +168,12 @@
 		A7F1DD891B17D957001E9B94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Coshx Labs";
 				TargetAttributes = {
 					A7F1DD911B17D957001E9B94 = {
-						CreatedOnToolsVersion = 6.3.2;
-					};
-					A7F1DD9C1B17D958001E9B94 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
@@ -210,8 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7F1DD911B17D957001E9B94 /* Caravel.temp_caseinsensitive_rename */,
-				A7F1DD9C1B17D958001E9B94 /* Caravel.temp_caseinsensitive_renameTests */,
+				A7F1DD911B17D957001E9B94 /* Caravel */,
 			);
 		};
 /* End PBXProject section */
@@ -224,47 +203,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7F1DD9B1B17D958001E9B94 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A726F6CC1C4FF4A6005EEDD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint lint --config \"${SRCROOT}/swiftlint.yml\"\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7F1DD8D1B17D957001E9B94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F1DDB31B17D989001E9B94 /* Subscriber.swift in Sources */,
+				A75215341C2C3EB700B7CAA3 /* IUIWebViewObserver.swift in Sources */,
+				A7F1DDB31B17D989001E9B94 /* EventSubscriber.swift in Sources */,
+				A75215381C2C5A8300B7CAA3 /* WKScriptMessageHandlerProxy.swift in Sources */,
+				A75215361C2C491400B7CAA3 /* UIWebViewDelegateProxyMediator.swift in Sources */,
+				A7199EF31BFC1F4400757E4F /* EventBus.swift in Sources */,
 				A7AC9F281B3493EB0041EB0B /* StringExtension.swift in Sources */,
-				A7F1DDB51B17D989001E9B94 /* UIWebViewDelegateMediator.swift in Sources */,
-				A7F1DDBA1B17E6F5001E9B94 /* SupportedType.swift in Sources */,
+				A7F1DDB51B17D989001E9B94 /* UIWebViewDelegateProxy.swift in Sources */,
 				A7F1DDB81B17E5F8001E9B94 /* DataSerializer.swift in Sources */,
+				A7199EEA1BFC038D00757E4F /* CaravelError.swift in Sources */,
+				A7199EEC1BFC0EC700757E4F /* CaravelFactory.swift in Sources */,
 				A7F1DDB21B17D989001E9B94 /* Caravel.swift in Sources */,
+				A7199EEE1BFC11E000757E4F /* Utils.swift in Sources */,
+				A75215311C2B07EC00B7CAA3 /* WKWebViewMediator.swift in Sources */,
 				A7F1DDBC1B17EF24001E9B94 /* ArgumentParser.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7F1DD991B17D958001E9B94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7F1DDA51B17D958001E9B94 /* caravelTests.swift in Sources */,
+				A752153C1C2C5B2E00B7CAA3 /* IWKWebViewObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7F1DDA01B17D958001E9B94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7F1DD911B17D957001E9B94 /* Caravel.temp_caseinsensitive_rename */;
-			targetProxy = A7F1DD9F1B17D958001E9B94 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A7F1DDA61B17D958001E9B94 /* Debug */ = {
@@ -304,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,36 +369,6 @@
 			};
 			name = Release;
 		};
-		A7F1DDAC1B17D958001E9B94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = caravelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CaravelTests;
-			};
-			name = Debug;
-		};
-		A7F1DDAD1B17D958001E9B94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = caravelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CaravelTests;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -431,20 +381,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7F1DDA81B17D958001E9B94 /* Build configuration list for PBXNativeTarget "Caravel.temp_caseinsensitive_rename" */ = {
+		A7F1DDA81B17D958001E9B94 /* Build configuration list for PBXNativeTarget "Caravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7F1DDA91B17D958001E9B94 /* Debug */,
 				A7F1DDAA1B17D958001E9B94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7F1DDAB1B17D958001E9B94 /* Build configuration list for PBXNativeTarget "Caravel.temp_caseinsensitive_renameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7F1DDAC1B17D958001E9B94 /* Debug */,
-				A7F1DDAD1B17D958001E9B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
